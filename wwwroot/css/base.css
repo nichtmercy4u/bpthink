@@ -1,0 +1,604 @@
+
+body {
+	
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	color: #535353;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #535353;
+}
+
+::-moz-selection {
+       background-color: #f34a76;
+       color: white;
+}
+
+::selection {
+       background-color: #f34a76;
+       color: #000;
+}
+
+/* NAVBAR */
+
+.navbar { 
+	border: 0px;
+	min-height: 10px;
+}
+
+.navbar-default {
+	background-color: white;
+	border-radius:0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #2f2f2f;
+	font-size: 16px;
+	margin-bottom: ;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #0893bc;
+	background-color: #f7f7f7;
+}
+.active {
+	color: #0893bc !important;
+}
+
+.navbar-default .navbar-nav>li>a span {
+	color: #797979;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.navbar-nav>li>a, .navbar-brand, .navbar-default .navbar-toggle {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}	
+
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+.navbar a{
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	color: #2f2f2f;
+}
+
+.navbar-brand {
+	height: 100px;
+	margin-top: -25px;
+}
+
+/*Navbar fix */
+@media only screen and (max-width: 768px){
+	.navbar-brand>img {
+		display: block;
+		padding: 10px 0;
+	}
+}
+
+
+/* /NAVBAR */
+
+/* PARALLAX */
+
+#parallax {
+	height: 1200px;
+	background-image: url("../img/Blended-Retail.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100%;
+	top: -150px;
+	z-index: -1;
+}
+
+/* /PARALLAX */
+
+/* FIRSTSECTION */
+
+#firstsection {
+	text-align: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background01.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: -20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#firstsectionbg {
+	background-image: url("../img/bpthink_4.5deg_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.firstcontent {
+	margin-top: 150px;
+	margin-bottom:200px;
+}
+
+#firstsection h1 {
+	margin-bottom: 15px;
+	font-weight: 300;
+	color: white;
+}
+
+#firstsection p {
+	text-transform: uppercase;
+	color: white;
+}
+
+@media only screen and (min-width: 600px){
+
+	#firstsection h1 {
+		font-size: 54px;
+	}
+
+	#firstsection p {
+		font-size: 16px;
+	}
+
+}
+
+#firstsection .btn {
+	border-radius: 50px;
+	padding: 18px 36px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	border: 2px solid transparent;
+	transition: all 0.4s ease-in;
+}
+
+#firstsection .btn-default {
+	color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+#firstsection .btn-default:hover {
+	color: #bc3851;
+    background-color: transparent;
+    border-color: #bc3851;
+}
+
+/* /FIRSTSECTION */
+
+/* SECONDSECTION */
+
+#secondsection {
+	min-height: ;
+	width: 100%;
+	background: white;
+	text-align: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background03.jpg");
+	background-size: 100%;
+	padding-bottom: 70px;
+
+
+}
+#secondsection h4 {
+	color: #0893bc;
+	font-weight: 300;
+	margin-top:;
+	margin-bottom:;
+	text-transform: uppercase;
+}
+
+#secondsection h1 {
+	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	color: #0893bc;
+}
+
+#secondsection p {
+	margin-bottom: 40px;
+}
+
+/* /SECONDSECTION */
+
+/* THIRDSECTION */
+
+#thirdsection {
+	background-color: transparent;
+	height: 500px;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#thirdsectionbg {
+	height: 500px;
+	background-image: url("../img/bpthink_4.5deg_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: transparent;
+}
+
+/* /THIRDSECTION */
+
+/* FOURTHSECTION */
+
+#fourthsection {
+	text-align: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background03.jpg");
+	background-size: 100%;
+}
+
+#fourthsection h3 {
+	color: #0893bc;
+	font-weight: 300;
+}
+
+#fourthsection h1 {
+	color: #0893bc;
+	font-weight: 300;
+}
+
+#fourthsection p {
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+/* /FOURTHSECTION */
+
+/* FIFTHSECTION */
+
+#fifthsection {
+	background-size: cover;
+	background-position: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background01.jpg");
+	padding-left: 0px;
+	padding-right: 0px;	
+	text-align: center;
+}
+
+#fifthsectionbg {
+
+	background-image: url("../img/bpthink_4.5deg2_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#fifthsection h1 {
+	margin-top: 150px;
+	color: white;
+	font-weight: 300;
+}
+
+#fifthsection p {
+	margin-top: 20px;
+	color: white;
+}
+
+.brands {
+	margin-top: 20px;
+}
+
+.brands .col-xs-6 {
+	margin-bottom: 20px;
+}
+
+.lastmargin {
+	margin-bottom: 50px;
+}
+
+/* /FIFTHSECTION */
+
+/* SIXTHSECTION */
+
+#sixthsection {
+
+	text-align: center;
+	background-position: bottom;
+	background-image: url("../img/bpthink_webdesign_and_development_background03.jpg");
+	background-size: 100%;
+}
+
+#sixthsection h1 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: #0893bc;
+	font-weight: 300;
+}
+
+#sixthsection .btn {
+	border-radius: 50px;
+	padding: 14px 50px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	border: 2px solid transparent;
+	font-size: 20px;
+	transition: all 0.4s ease-in;
+}
+
+#sixthsection .btn-default {
+	color: #0893bc;
+    background-color: transparent;
+    border-color: #0893bc;
+}
+
+#sixthsection .btn-default:hover {
+	color: #bc3851;
+    background-color: transparent;
+    border-color: #bc3851;
+}
+
+/* /SIXTHSECTION */
+
+/* FOOTER */
+
+.footer {
+	margin-bottom: 60px;
+	margin-top: 140px;
+}
+
+#footersection {
+	background-size: cover;
+	background-position: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background01.jpg");
+	padding-left: 0px;
+	padding-right: 0px;	
+
+}
+
+#footersectionbg {
+	background-image: url("../img/bpthink_4.5deg2_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#footersection h3 {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+#footersection p {
+line-height: 1.8;
+color: white;
+}
+
+#footersection p span{
+line-height: 1.8;
+color: #232323;
+}
+
+/* /FOOTER */
+
+
+
+
+
+/* SUBPAGE HEADER */
+
+#subpageheader {
+	text-align: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background01.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: -20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#subpageheaderbg {
+	background-image: url("../img/bpthink_4.5deg_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.subpageheadercontent {
+	margin-top: 120px;
+	margin-bottom:200px;
+}
+
+#subpageheader h1 {
+	margin-top: -10px;
+	margin-bottom: 15px;
+	font-weight: 300;
+	color: white;
+}
+
+#subpageheader p {
+	text-transform: uppercase;
+	color: white;
+}
+
+@media only screen and (min-width: 600px){
+
+	#subpageheader h1 {
+		font-size: 54px;
+	}
+
+	#subpageheader p {
+		font-size: 16px;
+	}
+
+}
+
+/* /SUBPAGE HEADER */
+
+/* SERVICES SECOND SELECTION */
+
+#servicessecondsection {
+	min-height: ;
+	width: 100%;
+	background: white;
+	text-align: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background03.jpg");
+	background-size: 100%;
+	padding-bottom: 70px;
+}
+
+#servicessecondsection h4 {
+	color: #0893bc;
+	font-weight: 300;
+	margin-top:;
+	margin-bottom:;
+	text-transform: uppercase;
+}
+
+#servicessecondsection h1 {
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	color: #0893bc;
+}
+
+#servicessecondsection p {
+	margin-bottom: 40px;
+}
+
+.servicessecondsectioncontent {
+	text-align: left;
+}
+
+/* /SERVICES SECOND SELECTION */
+
+/* SERVICES THIRD SELECTION */
+
+#servicesthirdsection {
+	width: 100%;
+	background-color: #f7f7f7;
+	padding-bottom: 60px;
+	
+}
+
+#servicesthirdsection h1 {
+	font-weight: 400;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	color: #0893bc;
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.lgprocess {
+	margin-top: 60px;
+}
+
+/* /SERVICES THIRD SELECTION */
+
+/* TEAM */
+
+
+#teamheaderbg {
+	background-image: url("../img/bpthink_4.5deg_f7f7f7_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#teamfooterbg {
+	background-image: url("../img/bpthink_4.5deg2_f7f7f7_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+/* TEAM SECOND SELECTION */
+#teamsecondsection {
+	width: 100%;
+	background-color: #f7f7f7;
+}
+
+#teamsecondsection p{
+	margin-top: 25px;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+/* /TEAM SECOND SELECTION */
+
+/* TEAM THIRD SELECTION */
+
+#teamthirdsection {
+	min-height: ;
+	width: 100%;
+	background: white;
+	text-align: center;
+	background-image: url("../img/bpthink_webdesign_and_development_background03.jpg");
+	background-size: 100%;
+	padding-bottom: 40px;
+}
+
+#teamthirdsection h3 {
+	color: #0893bc;
+	font-weight: 300;
+	margin-top:;
+	margin-bottom:;
+	text-transform: uppercase;
+}
+
+#teamthirdsection h1 {
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #0893bc;
+}
+
+#teamthirdsection span p  {
+	margin-bottom: 80px;
+}
+
+#teamthirdsection p  {
+	margin-bottom: 50px;
+}
+
+/* /TEAM THIRD SELECTION */
+
+/* TEAM FOURTH SELECTION */
+
+#teamfourthsection {
+	padding-top: 80px;
+	padding-bottom:30px;
+	width: 100%;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+/* /TEAM FOURTH SELECTION */
+
+/* CONTACT THIRD SECTION */
+
+#contactthirdsection {
+	padding-top: 80px;
+	padding-bottom:30px;
+	width: 100%;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+#contactthirdsection h1 {
+	margin-bottom: -15px;
+	color: #0893bc;
+}
+
+
+
+/* /CONTACT THIRD SECTION */
+
+
+
