@@ -1,0 +1,13 @@
+{
+  "name": "bpthink_node_angular",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "nichtmercy4u"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
